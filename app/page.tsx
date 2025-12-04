@@ -3,6 +3,7 @@ import { HeroSection2 } from "@/components/pro-blocks/landing-page/hero-sections
 import { ServiceSection1 } from "@/components/pro-blocks/landing-page/service-sections/service-section-1";
 import { AboutSection1 } from "@/components/pro-blocks/landing-page/about-sections/about-section-1";
 import TestimonialsSection1 from "@/components/pro-blocks/landing-page/testimonials-sections/testimonials-section-1";
+import { ContactSection1 } from "@/components/pro-blocks/landing-page/contact-sections/contact-section-1";
 import { Footer1 } from "@/components/pro-blocks/landing-page/footers/footer-1";
 
 export default function Page() {
@@ -33,9 +34,8 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <div id="contact">
-        <Footer1 />
-      </div>
+      <ContactSection1 />
+      <Footer1 />
     </main>
   );
 }
